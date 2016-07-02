@@ -55,6 +55,10 @@ public class Main {
 		vacanta.volum = 10;
 		System.out.println(vacanta.culoare);
 
+		scoala.adauga(13);
+		scoala.adauga(12);
+		System.out.println(scoala.volumCurent);
+
 	}
 
 }
