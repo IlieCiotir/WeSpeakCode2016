@@ -19,4 +19,8 @@ public class Rucsac {
 			System.out.println("Rucsacul e prea plin.");
 		}
 	}
+
+	boolean ePlin() {
+		return volumCurent == volum;
+	}
 }

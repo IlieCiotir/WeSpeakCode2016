@@ -61,13 +61,15 @@ public class Main {
 		scoala.adauga(12);
 		System.out.println(scoala.volumCurent);
 
-		System.out.print("Adauga volum: ");
 		Scanner scanner = new Scanner(System.in);
-		String input = scanner.nextLine();
-		Integer volum = Integer.valueOf(input);
-		scoala.adauga(volum);
-		System.out.println(scoala.volumCurent);
+		do {
+			System.out.print("Adauga volum: ");
+			String input = scanner.nextLine();
+			Integer volum = Integer.valueOf(input);
+			scoala.adauga(volum);
+			System.out.println(scoala.volumCurent);
 
+		} while (!scoala.ePlin());
 	}
 
 }
