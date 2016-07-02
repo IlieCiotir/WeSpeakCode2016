@@ -19,6 +19,11 @@ public class Main {
 		System.out.println(100 * 2);
 		System.out.println(100 % 3);
 		
+		int x = 10;
+		
+		String nume = "Ion";
+		boolean awesome = true;
+		
 
 	}
 
