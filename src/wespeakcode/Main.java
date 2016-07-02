@@ -33,6 +33,13 @@ public class Main {
 		for (int i = 0; i < 100; i++) {
 			System.out.println(i);
 		}
+
+		while (x < 100) {
+			System.out.println(1000 + x);
+			x++;
+		}
+		
+		
 	}
 
 }
