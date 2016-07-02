@@ -35,11 +35,26 @@ public class Main {
 		}
 
 		while (x < 100) {
-			System.out.println(1000 + x);
+			System.out.println(nume + x);
 			x++;
 		}
-		
-		
+
+		Rucsac scoala = new Rucsac();
+
+		System.out.println(scoala.volum);
+
+		scoala.culoare = "rosie";
+		scoala.volum = 1000;
+
+		System.out.println(scoala.volum);
+
+		Rucsac vacanta = new Rucsac();
+
+		System.out.println(vacanta.culoare);
+		vacanta.culoare = "verde";
+		vacanta.volum = 10;
+		System.out.println(vacanta.culoare);
+
 	}
 
 }
