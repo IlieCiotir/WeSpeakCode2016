@@ -3,6 +3,8 @@
  */
 package wespeakcode;
 
+import java.util.Scanner;
+
 /**
  * @author Ilie
  *
@@ -57,6 +59,13 @@ public class Main {
 
 		scoala.adauga(13);
 		scoala.adauga(12);
+		System.out.println(scoala.volumCurent);
+
+		System.out.print("Adauga volum: ");
+		Scanner scanner = new Scanner(System.in);
+		String input = scanner.nextLine();
+		Integer volum = Integer.valueOf(input);
+		scoala.adauga(volum);
 		System.out.println(scoala.volumCurent);
 
 	}
